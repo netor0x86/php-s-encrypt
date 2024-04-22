@@ -1,0 +1,7 @@
+ARG_ENABLE('psencrypt', 'psencrypt support', 'no');
+
+if (PHP_PSENCRYPT != 'no') {
+	AC_DEFINE('HAVE_PSENCRYPT', 1, 'psencrypt support enabled');
+
+	EXTENSION('psencrypt', 'psencrypt.c', null, '/DZEND_ENABLE_STATIC_TSRMLS_CACHE=1');
+}
