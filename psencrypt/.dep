@@ -1,6 +1,6 @@
-psencrypt.lo: \
-  /Users/jiyun/Documents/sources/php/php-s-encrypt/psencrypt/psencrypt.c \
-  config.h \
+.lo: \
+  /Users/jiyun/Documents/sources/php/php-s-encrypt/psencrypt/./include/log/sencrypt_log.c \
+  /Applications/EasySrv/software/php/php-8.2/include/php/main/php_reentrancy.h \
   /Applications/EasySrv/software/php/php-8.2/include/php/main/php.h \
   /Applications/EasySrv/software/php/php-8.2/include/php/main/php_version.h \
   /Applications/EasySrv/software/php/php-8.2/include/php/Zend/zend.h \
@@ -72,6 +72,4 @@ psencrypt.lo: \
   /Applications/EasySrv/software/php/php-8.2/include/php/Zend/zend_virtual_cwd.h \
   /Applications/EasySrv/software/php/php-8.2/include/php/TSRM/TSRM.h \
   /Applications/EasySrv/software/php/php-8.2/include/php/Zend/zend_constants.h \
-  /Applications/EasySrv/software/php/php-8.2/include/php/main/php_reentrancy.h \
-  /Applications/EasySrv/software/php/php-8.2/include/php/ext/standard/info.h \
-  php_psencrypt.h psencrypt_arginfo.h include/log/sencrypt_log.h
+  /Users/jiyun/Documents/sources/php/php-s-encrypt/psencrypt/./include/log/sencrypt_log.h

@@ -90,5 +90,5 @@ if test "$PHP_PSENCRYPT" != "no"; then
   dnl In case of no dependencies
   AC_DEFINE(HAVE_PSENCRYPT, 1, [ Have psencrypt support ])
 
-  PHP_NEW_EXTENSION(psencrypt, psencrypt.c, $ext_shared)
+  PHP_NEW_EXTENSION(psencrypt, psencrypt.c ./include/log/sencrypt_log.c, $ext_shared)
 fi
